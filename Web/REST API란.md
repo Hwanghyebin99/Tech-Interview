@@ -31,9 +31,42 @@ Restful api의 설계 원칙의 기본 두가지 원칙은 아래와 같습니�
 2. 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE)로 표현한다.
 #### 1.URI는 정보의 자원을 표현
 ```sh
-GET 
-```
+#잘못된 표현
+GET books/show/1
+GET showBooks/1
 
-#### 2.자원에 대한 행위는 HTTP Method로 표현
-```sh
+#올바른 표현
+get books/1
 ```
+책 리스트의 id가 1인 book의 정보를 가져온다.
+#### 2.자원에 대한 행위는 HTTP Method로 표현
+<table>
+    <thead>
+        <tr>
+            <th>METHOD</th>
+            <th>역할</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GET</td>
+            <td>특정 리소스를 요청하며, GET은 오직 데이터를 받기만 합니다.</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>리소스를 생성할 때 사용하며, 종종 서버의 상태의 변화나 부작용을 일으킵니다.</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>리소스를 삭제할 때 사용한다.</td>
+        </tr>
+        <tr>
+            <td>PUT</td>
+            <td>리소스의 전체를 교체할 때 사용한다.</td>
+        </tr>
+        <tr>
+            <td>PATCH</td>
+            <td>리소스의 일부만 교체할 때 사용한다.</td>
+        </tr>
+    </tbody>
+</table>
