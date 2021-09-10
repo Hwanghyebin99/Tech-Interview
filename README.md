@@ -8,6 +8,8 @@
 2. 앵귤러
 3. 자바스크립트
 4. 리액트
+5. Web  
+- <a src="https://github.com/Hwanghyebin99/Tech-Interview/blob/master/Web/REST%20API%EB%9E%80.md">Rest API란</a>
 
 ## 👩‍💻Authors
   - [Hwanghyebin99](https://github.com/Hwanghyebin99) - **Hyebeen Hwang** - <hyebeen.hwang.99@gmail.com>
