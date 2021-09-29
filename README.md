@@ -18,6 +18,7 @@
 ### WEB
 * [Restful API](https://github.com/Hwanghyebin99/Tech-Interview/blob/master/Web/REST%20API란.md)
 * [브라우저 렌더링 과정 및 렌더링 최적화](https://github.com/Hwanghyebin99/Tech-Interview/blob/master/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EB%A0%8C%EB%8D%94%EB%A7%81.md)
+* [Virtual DOM](https://github.com/Hwanghyebin99/Tech-Interview/blob/master/Web/Virtual_DOM.md)
 
 ### React
 
